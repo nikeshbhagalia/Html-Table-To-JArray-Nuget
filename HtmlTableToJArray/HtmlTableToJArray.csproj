@@ -2,6 +2,8 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>Nikesh Bhagalia</Authors>
+    <Product>Html Table To JArray</Product>
   </PropertyGroup>
 
   <ItemGroup>
