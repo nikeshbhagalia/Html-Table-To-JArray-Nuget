@@ -14,6 +14,12 @@ namespace HtmlTableToJArray
 
             var tableRows = document.DocumentNode.SelectNodes($"{tableXPath}//tr");
 
+            var details = new JArray();
+            if (!tableRows.Any())
+            {
+                return details;
+            }
+
             var propertyNames = tableRows.First()
                 .ChildNodes.Where(cn => cn.Name.StartsWith("t"))
                 .Select(th => HttpUtility.HtmlDecode(th.InnerText).Trim())
@@ -26,7 +32,6 @@ namespace HtmlTableToJArray
                     .Where(cn => cn.Name.StartsWith("t"))
                     .ToList());
 
-            var details = new JArray();
             foreach (var data in tableData)
             {
                 if (data.Count() < propertyNames.Count)
