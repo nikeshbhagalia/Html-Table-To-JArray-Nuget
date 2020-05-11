@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.757
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HtmlTableToJArray", "HtmlTableToJArray\HtmlTableToJArray.csproj", "{14C30060-308A-4273-84B9-5B7B35F9B151}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HtmlTableToJArray", "HtmlTableToJArray\HtmlTableToJArray.csproj", "{14C30060-308A-4273-84B9-5B7B35F9B151}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HtmlTableToJArray.UnitTests", "HtmlTableToJArray.UnitTests\HtmlTableToJArray.UnitTests.csproj", "{6F65EFAF-0D60-43D7-91BD-EDA6366AAB4C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{14C30060-308A-4273-84B9-5B7B35F9B151}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{14C30060-308A-4273-84B9-5B7B35F9B151}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{14C30060-308A-4273-84B9-5B7B35F9B151}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F65EFAF-0D60-43D7-91BD-EDA6366AAB4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F65EFAF-0D60-43D7-91BD-EDA6366AAB4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F65EFAF-0D60-43D7-91BD-EDA6366AAB4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F65EFAF-0D60-43D7-91BD-EDA6366AAB4C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
