@@ -8,7 +8,7 @@ namespace HtmlTableToJArray
 {
     public class HtmlTableToJArray
     {
-        public JArray GetContentDynamically(string url, string tableXPath, string emptyKeyReplacement = "")
+        public JArray GetContentDynamically(string url, string tableXPath, string emptyKeyReplacement = string.Empty)
         {
             var document = new HtmlWeb().Load(url);
 
