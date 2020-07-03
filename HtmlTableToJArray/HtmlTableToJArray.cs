@@ -57,7 +57,7 @@ namespace HtmlTableToJArray
                     var propertyName = propertyNames[index];
                     var content = FormatString(data[index].InnerText);
 
-                    var property = Int32.TryParse(content.Replace(",", ""), out var number)
+                    var property = Int32.TryParse(content.Replace(",", string.Empty), out var number)
                         ? new JProperty(propertyName, number)
                         : new JProperty(propertyName, content);
 
