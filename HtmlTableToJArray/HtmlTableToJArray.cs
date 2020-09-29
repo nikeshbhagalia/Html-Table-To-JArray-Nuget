@@ -70,9 +70,7 @@ namespace HtmlTableToJArray
             return details;
         }
 
-        private string FormatString(string value)
-        {
-            return HttpUtility.HtmlDecode(value).Trim().Replace("\t", string.Empty);
-        }
+        private string FormatString(string value) =>
+            HttpUtility.HtmlDecode(value).Trim().Replace("\t", string.Empty);
     }
 }
