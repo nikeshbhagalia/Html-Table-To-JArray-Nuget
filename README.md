@@ -1,2 +1,2 @@
 # HTML Table to JArray Nuget Package
-Nuget package not published yet.
+Nuget package has not published yet.
