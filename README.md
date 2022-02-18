@@ -1,3 +1,3 @@
 # HTML Table to JArray Nuget Package
 
-To do: Publish Nuget package.
+To do: Publish Nuget feed.
